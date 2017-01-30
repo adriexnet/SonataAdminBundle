@@ -135,8 +135,7 @@ Full Configuration Options
                     - bundles/sonataadmin/vendor/AdminLTE/css/AdminLTE.css
                     - bundles/sonatacore/vendor/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css
                     - bundles/sonataadmin/vendor/jqueryui/themes/base/jquery-ui.css
-                    - bundles/sonataadmin/vendor/select2/select2.css
-                    - bundles/sonataadmin/vendor/select2/select2-bootstrap.css
+                    - bundles/sonataadmin/vendor/select2/dist/css/select2.min.css
                     - bundles/sonataadmin/vendor/x-editable/dist/bootstrap3-editable/css/bootstrap-editable.css
                     - bundles/sonataadmin/css/styles.css
                     - bundles/sonataadmin/css/layout.css
@@ -153,7 +152,7 @@ Full Configuration Options
                     - bundles/sonataadmin/jquery/jquery.form.js
                     - bundles/sonataadmin/jquery/jquery.confirmExit.js
                     - bundles/sonataadmin/vendor/x-editable/dist/bootstrap3-editable/js/bootstrap-editable.min.js
-                    - bundles/sonataadmin/vendor/select2/select2.min.js
+                    - bundles/sonataadmin/vendor/select2/dist/js/select2.min.js
                     - bundles/sonataadmin/App.js
                     - bundles/sonataadmin/Admin.js
 

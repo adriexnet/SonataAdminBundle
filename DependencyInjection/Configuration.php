@@ -199,8 +199,7 @@ class Configuration implements ConfigurationInterface
 
                                 'bundles/sonataadmin/vendor/jqueryui/themes/base/jquery-ui.css',
 
-                                'bundles/sonataadmin/vendor/select2/select2.css',
-                                'bundles/sonataadmin/vendor/select2/select2-bootstrap.css',
+                                'bundles/sonataadmin/vendor/select2/dist/css/select2.min.css',
 
                                 'bundles/sonataadmin/vendor/x-editable/dist/bootstrap3-editable/css/bootstrap-editable.css',
 
@@ -228,7 +227,7 @@ class Configuration implements ConfigurationInterface
 
                                 'bundles/sonataadmin/vendor/x-editable/dist/bootstrap3-editable/js/bootstrap-editable.min.js',
 
-                                'bundles/sonataadmin/vendor/select2/select2.min.js',
+                                'bundles/sonataadmin/vendor/select2/dist/js/select2.min.js',
 
                                 'bundles/sonataadmin/App.js',
                                 'bundles/sonataadmin/Admin.js',
