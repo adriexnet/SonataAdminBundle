@@ -67,7 +67,7 @@ var Admin = {
         });
     },
     setup_select2: function(subject) {
-        if (window.SONATA_CONFIG && window.SONATA_CONFIG.USE_SELECT2 && window.Select2) {
+        if (window.SONATA_CONFIG && window.SONATA_CONFIG.USE_SELECT2) {
 
             jQuery('select:not([data-sonata-select2="false"])', subject).each(function() {
 
@@ -89,7 +89,7 @@ var Admin = {
                     width: function() {
 
                     // this code is an adaptation of select2 code (initContainerWidth function)
-                    style = this.element.attr('style');
+                    style = $(this).attr('style');
                     //console.log("main style", style);
                     if (style !== undefined) {
                         attrs = style.split(';');
@@ -102,7 +102,7 @@ var Admin = {
                             }
                         }
 
-                        style = this.element.css('width');
+                        style = $(this).css('width');
                         if (style.indexOf("%") > 0) {
                             return style;
                         }
